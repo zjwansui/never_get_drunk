@@ -22,8 +22,8 @@ class Messagenger
         }
         // *** 需用户填写部分 ***
         // fixme 必填: 请参阅 https://ak-console.aliyun.com/ 取得您的AK信息
-        $accessKeyId = "LTAIgW1j58BIqWhJ";
-        $accessKeySecret = "wKFgQwKgJ7LHnDMyWtjWLP6ufCK1Yd";
+        $accessKeyId = "";
+        $accessKeySecret = "";
         // fixme 必填: 短信接收号码
         $params["PhoneNumbers"] = $tel;
         // fixme 必填: 短信签名，应严格按"签名名称"填写，请参考: https://dysms.console.aliyun.com/dysms.htm#/develop/sign
